@@ -1,0 +1,16 @@
+{% extends 'main.html' %}
+
+{% block body %}
+<div class="container pt-5 col-lg-8 col-12">
+    {% for malay, english in result %}
+        <figure class="bg-light p-3">
+            <blockquote class="blockquote">
+                <p>{{ malay }}</p>
+            </blockquote>
+            <figcaption class="blockquote-footer mb-0">
+                {{ english }}
+            </figcaption>
+        </figure>
+    {% endfor %}
+    </div>
+{% endblock %}
