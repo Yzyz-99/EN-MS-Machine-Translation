@@ -21,7 +21,6 @@ requests==2.25.1
 sacrebleu==2.2.0
 sacremoses==0.0.43
 sentencepiece==0.1.95
-setuptools==52.0.0.post20210125
 soundfile==0.10.3.post1
 spacy==3.4.1
 subword_nmt==0.3.8
