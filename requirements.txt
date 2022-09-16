@@ -1,0 +1,11 @@
+torch>=1.6.0
+hydra-core
+editdistance
+matplotlib 
+sacrebleu 
+sacremoses 
+sentencepiece 
+tqdm 
+wandb
+flask
+googletrans
